@@ -3,7 +3,7 @@ clear all; clc;
 
 params = struct();
 
-params.fpath =  ['M:\Damien Bazin\iSCAT\20250325_ConfocaliSCAT_aperture_calibration\apt1\'];
+params.fpath =  ['M:\Damien Bazin\'];
 params.num_EVinc_tps = 200;
 params.num_fovs = 1;
 params.valid_fovs = 1:params.num_fovs;
