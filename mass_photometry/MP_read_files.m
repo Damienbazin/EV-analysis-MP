@@ -1,4 +1,4 @@
-function params = read_files_v4_2(params, varargin)
+function params = MP_read_files(params, varargin)
     %read the nd2 files and sort everything into the h5 file(s)
     if ismac
         slash = '/';
